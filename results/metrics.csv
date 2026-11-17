@@ -1,0 +1,7 @@
+model,MAE,RMSE,bias,MAE vs naive
+Mean of last 4 quarters,12.47,17.73,2.91,-20.6%
+XGBoost (Poisson),12.68,17.2,4.08,-19.2%
+Poisson GLM,13.11,17.38,6.95,-16.5%
+Ridge (log),13.35,17.71,5.77,-15.0%
+Naive (last quarter),15.7,20.46,1.36,0.0%
+Seasonal naive (same quarter last year),17.15,24.45,6.53,9.2%
